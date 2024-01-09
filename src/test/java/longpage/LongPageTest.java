@@ -20,7 +20,7 @@ public class LongPageTest {
         eyes.setLogHandler(new StdoutLogHandler(true));
 
         try {
-        	int viewportWidth = 1200;
+            int viewportWidth = 1200;
         	
             WebDriver eyesDriver = eyes.open(driver, "Applitools", "Long page testing example - Java", new RectangleSize(viewportWidth, 600));
 
